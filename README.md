@@ -6,7 +6,8 @@ A flexible circular seek bar UI element for android. The entire look and feel co
 
 ## Download from repository
 This circular seek bar can be downloaded from repository by adding the following into Android studio gradle file.
-```repositories {
+```
+repositories {
     maven {
         url  "http://dl.bintray.com/ksughosh/maven/"
     }
@@ -14,6 +15,7 @@ This circular seek bar can be downloaded from repository by adding the following
 
 dependencies {
   compile 'com.sughoshkumar.circular:flexiblecircularseekbar:0.1.4'
-}```
+}
+```
 
 Alternatively the files can be downloaded and the main library is inside the folder __flexiblecircularseekbar__.
