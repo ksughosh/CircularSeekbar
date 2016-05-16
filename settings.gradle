@@ -1,1 +1,1 @@
-include ':app', ':sliderarc'
+include ':app', ':flexibleciruclarseekbar'

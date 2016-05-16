@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
-ext{
-    bintrayRepo='maven'
+ext {
+    bintrayRepo = 'maven'
     bintrayName = 'flexiblecircularseekbar'
 
     publishedGroupId = 'com.sughoshkumar.circular'
