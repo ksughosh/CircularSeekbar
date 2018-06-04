@@ -180,7 +180,7 @@ public class CircularSeekBar extends View {
 
     public CircularSeekBar(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init(context, attrs, R.attr.circularSeekBarStyle);
+        init(context, attrs, 0);
     }
 
     public CircularSeekBar(Context context, AttributeSet attrs, int defStyle) {
@@ -272,6 +272,7 @@ public class CircularSeekBar extends View {
         mNeedleScalePaint.setColor(needleColor);
         mNeedleScalePaint.setAntiAlias(true);
         mNeedleScalePaint.setStrokeWidth(mNeedleThickness);
+
         mNeedleDistance = 30;
         mNeedleDP = 10;
         mMinimumNeedleScale = 0;
